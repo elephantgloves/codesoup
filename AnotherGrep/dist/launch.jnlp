@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="file:/C:/Users/liju/Desktop/python/java/AnotherGrep/dist/" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>AnotherGrep</title>
+        <vendor>liju</vendor>
+        <homepage href=""/>
+        <description>AnotherGrep</description>
+        <description kind="short">AnotherGrep</description>
+    </information>
+    <update check="always"/>
+    <security>
+<all-permissions/>
+</security>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="AnotherGrep.jar" main="true"/>
+    </resources>
+    <application-desc main-class="anothergrep.Grep">
+    </application-desc>
+</jnlp>
